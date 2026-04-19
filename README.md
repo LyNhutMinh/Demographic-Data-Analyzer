@@ -1,47 +1,31 @@
-# Demographic Data Analyzer
+# Demographic Data Analyzer 📊
 
-This is the second project of the **Data Analysis with Python** certification from freeCodeCamp. The goal is to analyze a dataset of demographic data extracted from the 1994 Census database using the Pandas library.
+This project is part of the **Data Analysis with Python** certification from [freeCodeCamp](https://www.freecodecamp.org/). It focuses on analyzing demographic data extracted from the 1994 Census database using the powerful **Pandas** library.
 
-## Project Description
+## 🚀 Project Overview
 
-In this project, I used Pandas to answer several demographic questions such as:
-* How many people of each race are represented in this dataset?
-* What is the average age of men?
-* What is the percentage of people who have a Bachelor's degree?
-* What percentage of people with advanced education (Bachelors, Masters, or Doctorate) make more than 50K?
-* What percentage of people without advanced education make more than 50K?
-* What is the minimum number of hours a person works per week?
-* What percentage of the people who work the minimum number of hours per week have a salary of more than 50K?
-* What country has the highest percentage of people that earn >50K and what is that percentage?
-* Identify the most popular occupation for those who earn >50K in India.
+The main objective of this script is to explore, filter, and extract meaningful statistics from a dataset of over 32,000 individuals. By leveraging Pandas, the script answers key demographic and socio-economic questions, providing insights into income inequality based on education, race, gender, and origin country.
 
-## Technologies Used
-* **Python 3.x**
-* **Pandas**: For data manipulation and analysis.
+## 🧠 Key Questions Answered
+The script programmatically calculates the following:
+- **Demographics**: Racial distribution and the average age of men.
+- **Education vs. Income**: The percentage of people with higher education (Bachelor's, Master's, Doctorate) earning >$50K annually compared to those without.
+- **Work Ethic**: The minimum hours worked per week and the percentage of those minimum-hour workers earning >$50K.
+- **Global Insights**: The country with the highest percentage of people earning >$50K.
+- **Occupational Trends**: The most popular occupation for high earners (>$50K) in India.
 
-## Dataset
-The dataset (`adult.data.csv`) was provided by the UCI Machine Learning Repository. It contains information like age, workclass, education, marital status, occupation, race, sex, native country, and salary.
+## 🛠️ Technologies & Tools
+- **Python 3.x**
+- **Pandas**: Core library used for DataFrames, Series manipulation, boolean indexing, and aggregation (`groupby`).
 
-## How to Run
-1.  Ensure you have Python and Pandas installed:
-    ```bash
-    pip install pandas
-    ```
-2.  Clone the repository:
-    ```bash
-    git clone [https://github.com/LyNhutMinh/Demographic-Data-Analyzer.git](https://github.com/LyNhutMinh/Demographic-Data-Analyzer.git)
-    ```
-3.  Navigate to the directory and run the script:
-    ```bash
-    python "Demographic Data Analyzer.py"
-    ```
+## 📂 File Structure
+- `demographic_data_analyzer.py`: The main module containing the analytical logic and Pandas operations.
+- `main.py`: The entry point for running and testing the application locally.
+- `adult.data.csv`: The core dataset utilized for this analysis (sourced from the UCI Machine Learning Repository).
 
-## Results Example
-When the script runs, it outputs statistics like:
-* **Average age of men**: 39.4
-* **Percentage with Bachelors**: 16.4%
-* **Highest earning country**: Iran (41.9%)
-* **Top occupation in India**: Prof-specialty
+## 💻 How to Run Locally
 
----
-*Developed as part of the freeCodeCamp Data Analysis Curriculum.*
+1. **Clone this repository:**
+   ```bash
+   git clone [https://github.com/LyNhutMinh/Demographic-Data-Analyzer.git](https://github.com/LyNhutMinh/Demographic-Data-Analyzer.git)
+   cd Demographic-Data-Analyzer
